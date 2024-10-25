@@ -62,7 +62,7 @@
         </repository>
          <repository>
             <id>custom-repo</id>
-            <url>http://localhost:8082/repository/maven-snapshots/</url>
+            <url>http://localhost:8082/repository/testrepo/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -115,13 +115,13 @@
   <snapshotRepository>
   <id>snapshotnexus</id>
   <name>snapshot nexus</name>
-  <url>http://localhost:8082/repository/maven-snapshots/</url>
+  <url>http://localhost:8082/repository/testrepo/</url>
  </snapshotRepository>
  
  <repository>
   <id>releasenexus</id>
   <name>release nexus</name>
-  <url>http://localhost:8082/repository/maven-releases//</url>
+  <url>http://localhost:8082/repository/testrepo/</url>
  </repository>
 
 </distributionManagement>
